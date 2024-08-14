@@ -1,12 +1,11 @@
 package in.dcafe.order.model.entity;
 
 
-import in.dcafe.order.model.Address;
+import in.dcafe.order.model.DeliveryAddress;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Builder;
 import lombok.Data;
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails;
 
 import java.util.List;
 
@@ -23,7 +22,7 @@ public class Order {
 
     private Long restaurantId;
 
-    private Address address;
+    private DeliveryAddress address;
 
     private Long deliveryPartnerId;
 

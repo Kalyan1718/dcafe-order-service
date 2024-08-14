@@ -1,8 +1,7 @@
 package in.dcafe.order.model;
 
 
-
-public class Address {
+public class Restaurant {
 
 
 }
