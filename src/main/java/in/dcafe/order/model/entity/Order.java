@@ -19,7 +19,7 @@ public class Order {
     @Id
     private Long orderUid;
 
-    private List<Long> itemIds; 
+    private List<Long> itemIds;
 
     private Long restaurantId;
 
